@@ -1,5 +1,5 @@
 <?php
-	date_default_timezone_set('US/Central');
+	date_default_timezone_set('Asia/Dhaka');
 
 /**
  * CodeIgniter

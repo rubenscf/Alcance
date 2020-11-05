@@ -326,7 +326,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = 'f1d3c704dfcd4f809610680a9a632075';
+$config['encryption_key'] = 'bef7a7d5e084bccc4438acd178c646f3';
 
 
 
@@ -537,4 +537,4 @@ $config['installDomain'] = [
 
 $config['demo']      = false;
 
-$config['installed'] = TRUE;
+$config['installed'] = false;
