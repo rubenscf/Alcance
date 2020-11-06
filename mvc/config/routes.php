@@ -11,4 +11,4 @@
     });
 
     $route['version']            = 'app/version';
-    $route['default_controller'] = 'signin/index';
+    $route['default_controller'] = 'frontend/index';
