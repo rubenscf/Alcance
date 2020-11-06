@@ -3,15 +3,15 @@
 class Cli extends CI_Controller {
     /*
     | -----------------------------------------------------
-    | PRODUCT NAME: 	INILABS SCHOOL MANAGEMENT SYSTEM
+    | PRODUCT NAME: 	SISTEMA DE INFORMACIÓN Y ADMINISTRACION DE BENEFICIARIOS Y DONACIONES PARA ACA
     | -----------------------------------------------------
-    | AUTHOR:			INILABS TEAM
+    |  AUTHOR:			YOANNA MORALES
     | -----------------------------------------------------
-    | EMAIL:			info@inilabs.net
+    |  AUTHOR:			yoanna_mor@hotmail.com
     | -----------------------------------------------------
-    | COPYRIGHT:		RESERVED BY INILABS IT
+    | COPYRIGHT:		RESERVED BY ACA
     | -----------------------------------------------------
-    | WEBSITE:			http://inilabs.net
+    | WEBSITE:			http://asociacionalcance.com
     | -----------------------------------------------------
     */
     // For user php artisan cli crud controllerName tableName PrimaryID (optional - subfolder name in views )
