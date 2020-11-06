@@ -49,11 +49,11 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['dsn']	   = '';
-$db['default']['hostname'] = '';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
-$db['default']['dbdriver'] = '';
+$db['default']['hostname'] = '85.187.148.25';
+$db['default']['username'] = 'ioguatec_umg';
+$db['default']['password'] = '33463346';
+$db['default']['database'] = 'ioguatec_umg';
+$db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = FALSE;
 $db['default']['db_debug'] = FALSE;
