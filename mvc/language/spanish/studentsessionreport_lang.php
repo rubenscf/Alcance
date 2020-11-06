@@ -1,14 +1,14 @@
 <?php
 
-$lang['panel_title']   = "Estudiante Reunión Informe";
+$lang['panel_title']   = "Beneficiario Reunión Informe";
 $lang['mail_success']  = "Correo Electrónico Enviar Con éxito";
 $lang['mail_error']    = "Oops, Correo Electrónico No Enviar";
 $lang['studentsessionreport_please_select'] = "Por Favor, Seleccione";
 $lang['studentsessionreport_class'] = "Clase";
 $lang['studentsessionreport_section'] = "Sección";
-$lang['studentsessionreport_student'] = "Estudiante";
+$lang['studentsessionreport_student'] = "Beneficiario";
 $lang['studentsessionreport_report_for'] = "Informe De";
-$lang['studentsessionreport_student_session'] = "Estudiante Sesión";
+$lang['studentsessionreport_student_session'] = "Beneficiario Sesión";
 $lang['studentsessionreport_subjects'] = "Los Sujetos";
 $lang['studentsessionreport_phone'] = "Teléfono";
 $lang['studentsessionreport_email'] = "Correo Electrónico";
@@ -21,8 +21,8 @@ $lang['studentsessionreport_grade'] = "Grado";
 $lang['studentsessionreport_point'] = "Punto";
 $lang['studentsessionreport_average_mark'] = "Promedio Marca";
 $lang['studentsessionreport_total_mark'] = "Total Marca";
-$lang['studentsessionreport_from_teacher_remarks'] = "Formulario De Profesor Comentarios";
-$lang['studentsessionreport_house_teacher_remarks'] = "Casa Profesor Comentarios";
+$lang['studentsessionreport_from_teacher_remarks'] = "Formulario De Facilitador Comentarios";
+$lang['studentsessionreport_house_teacher_remarks'] = "Casa Facilitador Comentarios";
 $lang['studentsessionreport_principal_remarks'] = "Principal Comentarios";
 $lang['studentsessionreport_interpretation'] = "Interpretación De Grados";
 $lang['studentsessionreport_gpa'] = "Gpa";

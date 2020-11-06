@@ -1,7 +1,7 @@
 <?php
 
-$lang['panel_title'] = "Estudiante Grupo";
-$lang['add_title'] = "Añadir Un Estudiante Grupo";
+$lang['panel_title'] = "Beneficiario Grupo";
+$lang['add_title'] = "Añadir Un Beneficiario Grupo";
 $lang['slno'] = "#";
 $lang['studentgroup_group'] = "Grupo";
 $lang['studentgroup_add'] = "Agregar";
@@ -12,8 +12,8 @@ $lang['delete'] = "Eliminar";
 $lang['print'] = "Imprimir";
 $lang['pdf_preview'] = "Pdf Vista Previa";
 $lang["mail"] = "Enviar Pdf Para Correo";
-$lang['add_studentgroup'] = "Añadir Estudiante Grupo";
-$lang['update_studentgroup'] = "Actualización Estudiante Grupo";
+$lang['add_studentgroup'] = "Añadir Beneficiario Grupo";
+$lang['update_studentgroup'] = "Actualización Beneficiario Grupo";
 $lang['to'] = "A";
 $lang['subject'] = "Tema";
 $lang['message'] = "Mensaje";

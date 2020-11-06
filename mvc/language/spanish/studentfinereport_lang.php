@@ -1,9 +1,9 @@
 <?php
 
-$lang['panel_title'] = "Estudiante Fino Informe";
+$lang['panel_title'] = "Beneficiario Fino Informe";
 $lang['studentfinereport_fromdate'] = "Desde Fecha";
 $lang['studentfinereport_todate'] = "A Fecha";
-$lang['studentfinereport_studentfine'] = "Estudiante Multa";
+$lang['studentfinereport_studentfine'] = "Beneficiario Multa";
 $lang['studentfinereport_report_for'] = "Informe De";
 $lang['studentfinereport_slno'] ="#";
 $lang['studentfinereport_date'] = "Fecha";

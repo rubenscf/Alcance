@@ -1,9 +1,9 @@
 <?php
 
-$lang['panel_title'] = "Estudiante Informe";
+$lang['panel_title'] = "Beneficiario Informe";
 $lang['studentreport_select_all_section'] = "All De La Sección";
 $lang['studentreport_select_all_class'] = "All De La Clase";
-$lang['studentreport_student'] = "Estudiante";
+$lang['studentreport_student'] = "Beneficiario";
 $lang['studentreport_please_select'] = "Por favor seleccione";
 $lang['studentreport_blood_group'] = "Sangre Grupo";
 $lang['studentreport_country'] = "País";
@@ -13,11 +13,11 @@ $lang['studentreport_hostel'] = "Albergue";
 $lang['studentreport_birthday'] = "Cumpleaños";
 $lang['studentreport_birthdaydate'] = "Cumpleaños Fecha";
 $lang['studentreport_route'] = "Ruta";
-$lang['studentreport_male'] = "Macho";
-$lang['studentreport_female'] = "Hembra";
+$lang['studentreport_male'] = "Masculino";
+$lang['studentreport_female'] = "Femenino";
 $lang['studentreport_school_or_class'] = "La Escuela/class";
 $lang['studentreport_school'] = "La Escuela";
-$lang['studentreport_student'] = "Estudiante";
+$lang['studentreport_student'] = "Beneficiario";
 $lang['studentreport_class'] = "Clase";
 $lang['studentreport_select_section'] = "Seleccione Sección";
 $lang['studentreport_photo'] = "Foto";
@@ -27,7 +27,7 @@ $lang['studentreport_date'] = "Fecha";
 $lang['studentreport_roll'] = "Rollo";
 $lang['studentreport_register'] = "Registro No";
 $lang['studentreport_email'] = "Correo Electrónico";
-$lang['studentreport_student_not_found'] = "No't   Estudiantes";
+$lang['studentreport_student_not_found'] = "No't   Beneficiarios";
 $lang['studentreport_select_class'] = "Seleccione Clase";
 $lang['studentreport_submit'] = "Obtener Informe";
 $lang['studentreport_section'] = "Sección";
