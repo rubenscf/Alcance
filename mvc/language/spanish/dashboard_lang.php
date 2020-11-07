@@ -1,6 +1,6 @@
 <?php
 
-$lang['panel_title'] = "Tablero De Instrumentos";
+$lang['panel_title'] = "Panel de Inicio";
 $lang['dashboard_notice'] = "Aviso";
 $lang['dashboard_username'] = "Nombre De Usuario";
 $lang['dashboard_email'] = "Correo Electrónico";
@@ -9,13 +9,13 @@ $lang['dashboard_address'] = "Dirección";
 $lang['dashboard_libraryfee'] = "Biblioteca Cuota";
 $lang['dashboard_transportfee'] = "Transporte Cuota";
 $lang['dashboard_hostelfee'] = "Albergue Cuota";
-$lang['dashboard_student_today_attendance'] = "Los Beneficiarios Hoy's Asistencia";
-$lang['dashboard_student_today_attendance_subtitle'] = "Haga Clic En El Columnas Para Ver Este Mes Beneficiario Asistencia";
-$lang['dashboard_student_this_month_daywise_attendance'] = "Los Beneficiarios Este Mes Día Sabio Asistencia";
+$lang['dashboard_student_today_attendance'] = "Asistencia de hoy de Beneficiarios";
+$lang['dashboard_student_today_attendance_subtitle'] = "Haga Clic En El Columnas Para Ver La Asistencia de Beneficiarios de este mes";
+$lang['dashboard_student_this_month_daywise_attendance'] = "Los Beneficiarios Este Mes Día Asistencia";
 $lang['dashboard_student_this_month_subject_attendance'] = "Los Beneficiarios Este Mes Total Asistencia";
-$lang['dashboard_earning_graph'] = "Ganar Gráfico";
+$lang['dashboard_earning_graph'] = "Gráfico de Donaciones";
 $lang['dashboard_earning_summary'] = "Cuentas Resumen";
-$lang['dashboard_earning_summary_subtitle'] = "Haga Clic En Mes Renta O Expensas Columna Para Ver Día Sabio Cuenta Resumen";
+$lang['dashboard_earning_summary_subtitle'] = "Haga Clic En Mes Renta O Expensas Columna Para Ver Día Cuenta Resumen";
 $lang['dashboard_per_day_attendance'] = "Asistencia por día";
 $lang['dashboard_notpaid'] = "No Pagados";
 $lang['dashboard_partially_paid'] = "Parcialmente Pagados";

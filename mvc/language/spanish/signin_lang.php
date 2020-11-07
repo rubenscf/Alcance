@@ -1,3 +1,3 @@
 <?php
 
-$lang['signin'] = "Signo En";
+$lang['signin'] = "Iniciar Sesion";

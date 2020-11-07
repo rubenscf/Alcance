@@ -13,5 +13,5 @@ $lang['update_updatelog'] = "Actualización De Registro";
 $lang['update_action'] = "Acción";
 $lang['update_success'] = "El éxito";
 $lang['update_failed'] = "Fracasado";
-$lang['update_file_browse'] = "Archivo De Navegar";
+$lang['update_file_browse'] = "Seleccionar archivo";
 $lang['update_clear'] = "Claro";

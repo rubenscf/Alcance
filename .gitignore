@@ -1,4 +1,4 @@
-documentation
+documentation/**
 */config/development
 */logs/log-*.php
 !*/logs/index.html
@@ -16,3 +16,5 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+mvc/cache/**
+mvc/cache/*

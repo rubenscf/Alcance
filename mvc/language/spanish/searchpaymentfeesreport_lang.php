@@ -1,6 +1,6 @@
 <?php
 
-$lang['slno'] ="#";
+$lang['slno'] = "#";
 $lang['panel_title'] = "Búsqueda  Pago Tasas Informe";
 $lang['searchpaymentfeesreport_please_select'] = "Por Favor, Seleccione";
 $lang['searchpaymentfeesreport_report_for'] = "Informe De";
@@ -27,7 +27,7 @@ $lang['searchpaymentfeesreport_payment_status'] = "Pago De Estado";
 $lang['searchpaymentfeesreport_partial_paid'] = "Parcialmente Pagados";
 $lang['searchpaymentfeesreport_fully_paid'] = "Totalmente Pagados";
 $lang['searchpaymentfeesreport_classes'] = "Clase";
-$lang['searchpaymentfeesreport_roll'] = "Rollo";
+$lang['searchpaymentfeesreport_roll'] = "Rol";
 $lang['searchpaymentfeesreport_section'] = "Sección";
 $lang['searchpaymentfeesreport_group'] = "Grupo";
 $lang['searchpaymentfeesreport_student_copy'] = "Beneficiario Copia";

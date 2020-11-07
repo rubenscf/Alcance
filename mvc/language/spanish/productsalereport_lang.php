@@ -1,6 +1,6 @@
 <?php
 
-$lang['slno'] ="#";
+$lang['slno'] = "#";
 $lang['panel_title'] = "Producto Venta De Informes";
 $lang['productsalereport_please_select'] = "Por Favor, Seleccione";
 $lang['productsalereport_productsale'] = "Producto Venta";
@@ -22,7 +22,7 @@ $lang['productsalereport_totalbalance'] = "Total De Equilibrio";
 $lang['productsalereport_paid'] = "Pagado";
 $lang['productsalereport_refund'] = "Reembolso";
 $lang['productsalereport_partial'] = "Parcial";
-$lang['productsalereport_roll'] = "Rollo";
+$lang['productsalereport_roll'] = "Rol";
 $lang['productsalereport_partial_paid'] = "Parcial Pagados";
 $lang['productsalereport_fully_paid'] = "Totalmente Pagados";
 $lang['productsalereport_pending'] = "Pendiente";
