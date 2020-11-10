@@ -25,3 +25,13 @@ ERROR - 2020-11-10 12:59:26 --> Unable to connect to the database
 ERROR - 2020-11-10 14:39:05 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
  C:\Users\yoann\Documents\GitHub\Alcance\main\database\drivers\mysqli\mysqli_driver.php 201
 ERROR - 2020-11-10 14:39:05 --> Unable to connect to the database
+ERROR - 2020-11-10 17:36:15 --> Could not find the language line "journal"
+ERROR - 2020-11-10 17:36:15 --> Could not find the language line "school_level"
+ERROR - 2020-11-10 17:37:22 --> Could not find the language line "journal"
+ERROR - 2020-11-10 17:37:22 --> Could not find the language line "school_level"
+ERROR - 2020-11-10 17:41:58 --> Could not find the language line "journal"
+ERROR - 2020-11-10 17:41:58 --> Could not find the language line "school_level"
+ERROR - 2020-11-10 17:41:58 --> Could not find the language line "studentgroupID"
+ERROR - 2020-11-10 17:43:27 --> Could not find the language line "journal"
+ERROR - 2020-11-10 17:43:27 --> Could not find the language line "school_level"
+ERROR - 2020-11-10 17:43:27 --> Could not find the language line "studentgroupID"
