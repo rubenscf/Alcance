@@ -69,6 +69,210 @@
                     </div>
 
                     <?php
+                        if(form_error('mother_dpi'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="mother_dpi" class="col-sm-2 control-label">
+                            DPI Madre
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="mother_dpi" name="mother_dpi" value="<?=set_value('mother_dpi')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('mother_dpi'); ?>
+                        </span>
+                    </div>
+
+                    <?php
+                        if(form_error('father_bday'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="father_bday" class="col-sm-2 control-label">
+                        Fecha de Nacimiento_Padre
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="father_bday" name="father_bday" value="<?=set_value('father_bday')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('father_bday'); ?>
+                        </span>
+                    </div>
+
+                    <?php
+                        if(form_error('father_school_level'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="father_school_level" class="col-sm-2 control-label">
+                        Escolaridad del padre
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="father_school_level" name="father_school_level" value="<?=set_value('father_school_level')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('father_school_level'); ?>
+                        </span>
+                    </div>
+
+                    <?php
+                        if(form_error('father_religion'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="father_religion" class="col-sm-2 control-label">
+                        Escolaridad del padre
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="father_religion" name="father_religion" value="<?=set_value('father_religion')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('father_religion'); ?>
+                        </span>
+                    </div>
+
+                    <?php
+                        if(form_error('mother_bday'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="mother_bday" class="col-sm-2 control-label">
+                            Fecha de Nacimiento_Madre
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="mother_bday" name="mother_bday" value="<?=set_value('mother_bday')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('mother_bday'); ?>
+                        </span>
+                    </div>
+
+                    <?php
+                        if(form_error('mother_school_level'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="mother_school_level" class="col-sm-2 control-label">
+                        Escolaridad de la madre
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="mother_school_level" name="mother_school_level" value="<?=set_value('mother_school_level')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('mother_school_level'); ?>
+                        </span>
+                    </div>
+
+                    <?php
+                        if(form_error('mother_religion'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="mother_religion" class="col-sm-2 control-label">
+                        Religión de la madre
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="mother_religion" name="mother_religion" value="<?=set_value('mother_religion')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('mother_religion'); ?>
+                        </span>
+                    </div>
+
+                    <?php
+                        if(form_error('income'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="income" class="col-sm-2 control-label">
+                        Ingresos
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="income" name="income" value="<?=set_value('income')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('income'); ?>
+                        </span>
+                    </div>
+
+                    <?php
+                        if(form_error('brother_cant'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="brother_cant" class="col-sm-2 control-label">
+                        Cantidad de hermanos
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="brother_cant" name="brother_cant" value="<?=set_value('brother_cant')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('brother_cant'); ?>
+                        </span>
+                    </div>
+
+                    <?php
+                        if(form_error('brother_names'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="brother_names" class="col-sm-2 control-label">
+                        Nombre de los hermanos
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="brother_names" name="brother_names" value="<?=set_value('brother_names')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('brother_names'); ?>
+                        </span>
+                    </div>
+
+                    <?php
+                        if(form_error('brother_age'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="brother_age" class="col-sm-2 control-label">
+                        Edades de los hermanos
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="brother_age" name="brother_age" value="<?=set_value('brother_age')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('brother_age'); ?>
+                        </span>
+                    </div>
+
+                    <?php
+                        if(form_error('brother_school_level'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="brother_school_level" class="col-sm-2 control-label">
+                        Escolaridad de los hermanos
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="brother_school_level" name="brother_school_level" value="<?=set_value('brother_school_level')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('brother_school_level'); ?>
+                        </span>
+                    </div>
+
+                    <?php
                         if(form_error('mother_name'))
                             echo "<div class='form-group has-error' >";
                         else
@@ -118,6 +322,8 @@
                             <?php echo form_error('mother_profession'); ?>
                         </span>
                     </div>
+
+             
 
                     <?php
                         if(form_error('email'))
