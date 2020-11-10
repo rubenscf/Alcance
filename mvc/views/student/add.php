@@ -468,7 +468,7 @@
 
                 <?php if ($siteinfos->note==1) { ?>
                     <div class="callout callout-danger">
-                        <p><b>Note:</b> Create teacher, class, section before create a new student.</p>
+                        <p><b>Nota:</b> Crear maestro, clase, seccion antes de crear un beneficiario.</p>
                     </div>
                 <?php } ?>
             </div> <!-- col-sm-8 -->
