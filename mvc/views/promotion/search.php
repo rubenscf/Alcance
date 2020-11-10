@@ -1,6 +1,6 @@
 <?php if ($siteinfos->note==1) { ?>
     <div class="callout callout-danger">
-        <p><b>Note:</b> Select Academic year & class</p>
+        <p><b>Nota:</b> Seleccionar un año academico y clase</p>
     </div>
 <?php } ?>
 <div class="box">

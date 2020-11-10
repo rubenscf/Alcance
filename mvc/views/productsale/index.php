@@ -233,7 +233,7 @@
                     <?php if ($siteinfos->note==1) { ?>
                         <div class="col-sm-12">
                             <div class="callout callout-danger">
-                                <p><b>Note:</b> This payment add in current academic year.</p>
+                                <p><b>Nota:</b> Este pago se suma al año académico en curso.</p>
                             </div>
                         </div>
                     <?php } ?>

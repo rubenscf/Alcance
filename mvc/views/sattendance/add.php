@@ -1,7 +1,6 @@
 <?php if ($siteinfos->note==1) { ?>
     <div class="callout callout-danger">
-        <p><b>Note:</b> There are two types of attendance, day wise and class wise. you can select your institute attendance system in <a href="<?=base_url('setting')?>" class="text-blue">settings.</a></p>
-    </div>
+	<p> <b> Nota: </b> Hay dos tipos de asistencia, por día y por clase. puede seleccionar el sistema de asistencia de su instituto en <a href="<?=base_url('setting')?> "class =" text-blue "> settings. </a> </p> </div>
 <?php } ?>
 <div class="box">
     <div class="box-header">

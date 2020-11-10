@@ -274,7 +274,7 @@
                 </div> <!-- nav-tabs-custom -->
                 <?php if ($siteinfos->note==1) { ?>
                     <div class="callout callout-danger">
-                        <p><b>Note:</b> If you select student form user select box then some keyword will appear in tags box. You can click those any of tags for inserting into template field. if you insert <b>[name]</b> tag then when you send email it will represent student name on that place.</p>
+                        <p><b>Nota:</b> Si selecciona el cuadro de selección de usuario del formulario de estudiante, aparecerá alguna palabra clave en el cuadro de etiquetas. Puede hacer clic en cualquiera de las etiquetas para insertarlas en el campo de la plantilla. si inserta la etiqueta <b>[name]</b>, cuando envíe el correo electrónico, representará el nombre del estudiante en ese lugar.</p>
                     </div>
                 <?php } ?>
             </div>

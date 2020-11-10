@@ -260,7 +260,7 @@
                 </form>
                 <?php if ($siteinfos->note==1) { ?>
                     <div class="callout callout-danger">
-                        <p><b>Note:</b> Create user role before create a user. User like as school staff.</p>
+					<p> <b> Nota: </b> Cree un rol de usuario antes de crear un usuario. Me gusta al usuario como personal de la escuela. </p>
                     </div>
                 <?php } ?>
             </div>

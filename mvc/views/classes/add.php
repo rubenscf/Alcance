@@ -102,7 +102,7 @@
                 </form>
                 <?php if ($siteinfos->note==1) { ?>
                     <div class="callout callout-danger">
-                        <p><b>Note:</b> Create a teacher before create a new class.</p>
+                        <p><b>Nota:</b> Crear un maestro antes de crear una nueva clase.</p>
                     </div>
                 <?php } ?>
 

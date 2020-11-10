@@ -59,7 +59,7 @@
                 </form>
                 <?php if ($siteinfos->note==1) { ?>
                     <div class="callout callout-danger">
-                        <p><b>Note:</b> Create a post before create a new category.</p>
+                        <p><b>Nota:</b> Crear un post despuesd e crear una categoria.</p>
                     </div>
                 <?php } ?>
 

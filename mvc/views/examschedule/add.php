@@ -190,7 +190,7 @@
                 </form>
                 <?php if ($siteinfos->note==1) { ?>
                     <div class="callout callout-danger">
-                        <p><b>Note:</b> Create exam, class, section & subject before you create a new exam schedule</p>
+                        <p><b>Nota:</b> Crear Examen, clase, sesion & asunto antes de crear una nueva programacion de examen</p>
                     </div>
                 <?php } ?>
             </div>

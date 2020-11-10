@@ -256,7 +256,7 @@
                 </form>
             <?php if ($siteinfos->note==1) { ?>
                 <div class="callout callout-danger">
-                    <p><b>Note:</b> Make teacher, class, subject & section before you add routine</p>
+                    <p><b>Nota:</b>Haz profesor, clase, asignatura y sección antes de agregar horario</p>
                 </div>
             <?php } ?>
             </div>

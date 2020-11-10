@@ -1,10 +1,9 @@
 
 <div class="callout callout-info">
     <p>
-        <b>Note:</b> Select student for enroll same class or promote to next class.<br/>
-        <b>For Enroll:</b> Student<b> Academic Year</b> will be change but <b>Class</b> will be unchanged. <br/>
-        <b>For Promotion: Class</b> and <b>Academic Year</b> both will be change for promotion. Roll and Section automatically generate based on student highest mark.
-    </p>
+	<b> Nota: </b> Seleccione un alumno para inscribirse en la misma clase o ascender a la siguiente clase. <br/>
+         <b> Para la inscripción: </b> El <b> año académico </b> del estudiante cambiará, pero la <b> Clase </b> no cambiará. <br/>
+         <b> Para promoción: Clase </b> y <b> Año académico </b> ambos cambiarán para promoción. El rol y la sección se generan automáticamente según la calificación más alta del estudiante.  </p>
 
 </div>
 <div class="box">

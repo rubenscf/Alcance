@@ -125,7 +125,7 @@
                 </form>
                 <?php if ($siteinfos->note==1) { ?>
                     <div class="callout callout-danger">
-                        <p><b>Note:</b> Add your institute expense</p>
+                        <p><b>Nota:</b> Agregar los gastos del instituto</p>
                     </div>
                 <?php } ?>
             </div>

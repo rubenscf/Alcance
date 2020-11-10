@@ -60,7 +60,7 @@
 
                 <?php if ($siteinfos->note==1) { ?>
                     <div class="callout callout-danger">
-                        <p><b>Note:</b> After adding a new mark percentage select this percentage in general settings to activate this new percentage on marking.</p>
+                        <p><b>Nota:</b> Después de agregar un nuevo porcentaje de marca, seleccione este porcentaje en la configuración general para activar este nuevo porcentaje al marcar.</p>
                     </div>
                 <?php } ?>
 

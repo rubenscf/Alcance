@@ -657,7 +657,7 @@
 
                 <?php if ($siteinfos->note==1) { ?>
                     <div class="callout callout-danger">
-                        <p><b>Note:</b> Admin can make custom template before send email or sms, that will help you send email/sms very quickly.</p>
+                        <p><b>Nota:</b> El administrador puede hacer una plantilla personalizada antes de enviar correos electrónicos o sms, lo que lo ayudará a enviar correos electrónicos / sms muy rápidamente.</p>
                     </div>
                 <?php } ?>
 

@@ -179,7 +179,7 @@
                 </form>
                 <?php if ($siteinfos->note==1) { ?>
                     <div class="callout callout-danger">
-                        <p><b>Note:</b> Create a teacher & class before create a new subject.</p>
+					<p> <b> Nota: </b> Crea un profesor y una clase antes de crear una asignatura nueva. </p>
                     </div>
                 <?php } ?>
             </div> <!-- col-sm-8 -->

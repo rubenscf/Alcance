@@ -24,7 +24,7 @@ $lang['student_select_guargian'] = "Select Guardian";
 $lang['student_maxidoverloaded'] = 'Student Max ID Overloaded';
 $lang['student_bloodgroup'] = 'Blood Group';
 $lang['student_country'] = 'Country';
-$lang['student_registerNO'] = 'Register NO';
+$lang['student_registerNO'] = 'Hopechest';
 $lang['student_state'] = 'State';
 
 $lang['student_studentgroup'] = 'Group';

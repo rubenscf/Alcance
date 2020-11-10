@@ -1,6 +1,6 @@
 <?php if ($siteinfos->note==1) { ?>
     <div class="callout callout-danger">
-        <p><b>Note:</b> Create exam, class, section & subject before add mark</p>
+        <p><b>Nota:</b> Crear examen, clase, seccion & asunto antes de agregar una nota</p>
     </div>
 <?php } ?>
 <div class="box">

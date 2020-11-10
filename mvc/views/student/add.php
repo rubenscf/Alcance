@@ -211,30 +211,7 @@
                         </span>
                     </div>
 
-                    <?php
-                        if(form_error('country'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="country" class="col-sm-2 control-label">
-                            <?=$this->lang->line("student_country")?>
-                        </label>
-                        <div class="col-sm-6">
-                            <?php
-                                $country['0'] = $this->lang->line('student_select_country');
-                                foreach ($allcountry as $allcountryKey => $allcountryit) {
-                                    $country[$allcountryKey] = $allcountryit;
-                                }
-                            ?>
-                            <?php
-                                echo form_dropdown("country", $country, set_value("country"), "id='country' class='form-control select2'");
-                            ?>
-                        </div>
-                        <span class="col-sm-4 control-label">
-                            <?php echo form_error('country'); ?>
-                        </span>
-                    </div>
+                   
 
                     <?php
                         if(form_error('classesID'))
