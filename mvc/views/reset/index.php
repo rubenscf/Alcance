@@ -1,6 +1,6 @@
 
 <div class="form-box" id="login-box">
-    <div class="header">Reset Password</div>
+    <div class="header">Reiniciar Contraseña</div>
     <form role="form" method="post">
         <div class="body white-bg">
 

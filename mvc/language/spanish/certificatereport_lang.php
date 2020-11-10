@@ -1,14 +1,14 @@
 <?php
 
 $lang['panel_title'] = "Certificado Informe";
-$lang['certificatereport_select_all_section'] = "All De La Sección";
-$lang['certificatereport_all_section'] = "All De La Sección";
+$lang['certificatereport_select_all_section'] = "Toda La Sección";
+$lang['certificatereport_all_section'] = "Toda La Sección";
 $lang['certificatereport_report'] = "Certificado";
 $lang['certificatereport_report_for'] = "Informe De";
 $lang['certificatereport_class'] = "Clase";
 $lang['certificatereport_photo'] = "Foto";
 $lang['certificatereport_name'] = "Nombre";
-$lang['certificatereport_roll'] = "Rollo";
+$lang['certificatereport_roll'] = "Rol";
 $lang['certificatereport_section'] = "Sección";
 $lang['certificatereport_action'] = "Acción";
 $lang['certificatereport_student_not_found'] = "No't   Beneficiarios";

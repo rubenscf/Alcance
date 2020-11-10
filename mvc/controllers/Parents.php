@@ -34,13 +34,53 @@ class Parents extends Admin_Controller {
 				'rules' => 'trim|required|xss_clean|max_length[60]'
 			),
 			array(
+				'field' => 'father_dpi',
+				'label' => $this->lang->line("parents_father_name"),
+				'rules' => 'trim|xss_clean|max_length[15]'
+			), 
+			array(
 				'field' => 'father_name',
 				'label' => $this->lang->line("parents_father_name"),
 				'rules' => 'trim|xss_clean|max_length[60]'
 			),
 			array(
+				'field' => 'father_bday',
+				'label' => $this->lang->line("parents_father_name"),
+				'rules' => 'trim|xss_clean|max_length[15]'
+			),
+			array(
+				'field' => 'father_school_level',
+				'label' => $this->lang->line("parents_father_name"),
+				'rules' => 'trim|xss_clean|max_length[50]'
+			),
+			array(
+				'field' => 'father_religion',
+				'label' => $this->lang->line("parents_father_name"),
+				'rules' => 'trim|xss_clean|max_length[50]'
+			),
+			array(
+				'field' => 'mother_dpi',
+				'label' => $this->lang->line("parents_father_name"),
+				'rules' => 'trim|xss_clean|max_length[15]'
+			),
+			array(
 				'field' => 'mother_name',
 				'label' => $this->lang->line("parents_mother_name"),
+				'rules' => 'trim|xss_clean|max_length[60]'
+			),
+			array(
+				'field' => 'mother_bday',
+				'label' => $this->lang->line("parents_father_name"),
+				'rules' => 'trim|xss_clean|max_length[15]'
+			),
+			array(
+				'field' => 'mother_school_level',
+				'label' => $this->lang->line("parents_father_name"),
+				'rules' => 'trim|xss_clean|max_length[50]'
+			),
+			array(
+				'field' => 'mother_religion',
+				'label' => $this->lang->line("parents_father_name"),
 				'rules' => 'trim|xss_clean|max_length[60]'
 			),
 			array(
@@ -67,6 +107,31 @@ class Parents extends Admin_Controller {
 				'field' => 'address',
 				'label' => $this->lang->line("parents_address"),
 				'rules' => 'trim|max_length[200]|xss_clean'
+			),
+			array(
+				'field' => 'income',
+				'label' => $this->lang->line("parents_father_name"),
+				'rules' => 'trim|xss_clean|max_length[10]'
+			),
+			array(
+				'field' => 'brother_names',
+				'label' => $this->lang->line("parents_father_name"),
+				'rules' => 'trim|xss_clean|max_length[255]'
+			),
+			array(
+				'field' => 'brother_cant',
+				'label' => $this->lang->line("parents_father_name"),
+				'rules' => 'trim|xss_clean|max_length[2]'
+			),
+			array(
+				'field' => 'brother_age',
+				'label' => $this->lang->line("parents_father_name"),
+				'rules' => 'trim|xss_clean|max_length[50]'
+			),
+			array(
+				'field' => 'brother_school_level',
+				'label' => $this->lang->line("parents_father_name"),
+				'rules' => 'trim|xss_clean|max_length[100]'
 			),
 			array(
 				'field' => 'photo',
@@ -116,7 +181,7 @@ class Parents extends Admin_Controller {
 	public function unique_data($data) {
 		if($data != '') {
 			if($data == '0') {
-				$this->form_validation->set_message('unique_data', 'The %s field is required.');
+				$this->form_validation->set_message('unique_data', 'El campo %s es requerido.');
 				return FALSE;
 			}
 			return TRUE;

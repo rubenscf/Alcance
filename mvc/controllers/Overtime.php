@@ -8,7 +8,7 @@ class Overtime extends Admin_Controller
 | -----------------------------------------------------
 | PRODUCT NAME:     INILABS SCHOOL MANAGEMENT SYSTEM
 | -----------------------------------------------------
-| AUTHOR:            INILABS TEAM
+| AUTHOR:            Yoanna_mor
 | -----------------------------------------------------
 | EMAIL:            info@inilabs.net
 | -----------------------------------------------------

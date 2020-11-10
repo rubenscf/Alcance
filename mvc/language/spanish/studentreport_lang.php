@@ -1,11 +1,11 @@
 <?php
 
 $lang['panel_title'] = "Beneficiario Informe";
-$lang['studentreport_select_all_section'] = "All De La Sección";
+$lang['studentreport_select_all_section'] = "Toda La Sección";
 $lang['studentreport_select_all_class'] = "All De La Clase";
 $lang['studentreport_student'] = "Beneficiario";
 $lang['studentreport_please_select'] = "Por favor seleccione";
-$lang['studentreport_blood_group'] = "Sangre Grupo";
+$lang['studentreport_blood_group'] = "Grupo Sanguineo";
 $lang['studentreport_country'] = "País";
 $lang['studentreport_gender'] = "Género";
 $lang['studentreport_transport'] = "Transporte";
@@ -24,7 +24,7 @@ $lang['studentreport_photo'] = "Foto";
 $lang['studentreport_name'] = "Nombre";
 $lang['studentreport_phone'] = "Teléfono";
 $lang['studentreport_date'] = "Fecha";
-$lang['studentreport_roll'] = "Rollo";
+$lang['studentreport_roll'] = "Rol";
 $lang['studentreport_register'] = "Registro No";
 $lang['studentreport_email'] = "Correo Electrónico";
 $lang['studentreport_student_not_found'] = "No't   Beneficiarios";

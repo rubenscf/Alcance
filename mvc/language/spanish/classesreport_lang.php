@@ -3,7 +3,7 @@
 $lang['panel_title'] = "Clase Informe";
 $lang['classesreport_report_for'] = "Informe De";
 $lang['classesreport_section'] = "Sección";
-$lang['classesreport_select_all_section'] = "All De La Sección";
+$lang['classesreport_select_all_section'] = "Toda La Sección";
 $lang['classesreport_class'] = "Clase";
 $lang['classesreport_please_select'] = "Por Favor, Seleccione";
 $lang['classesreport_class_info'] = "Clase Información";
@@ -22,7 +22,7 @@ $lang['classesreport_feetype'] = "Tarifa De Tipo";
 $lang['classesreport_collection'] = "Colección";
 $lang['classesreport_feetypes_collection'] = "Tarifa Tipos De Colección";
 $lang['classesreport_student_account_info'] = "Beneficiario De Cuenta Info";
-$lang['classesreport_student_roll'] = "Rollo";
+$lang['classesreport_student_roll'] = "Rol";
 $lang['classesreport_student'] = "Beneficiario";
 $lang['classesreport_due_amount'] = "Debido Cantidad";
 $lang['classesreport_total_amount'] = "Total Cantidad";

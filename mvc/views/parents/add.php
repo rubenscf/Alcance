@@ -34,6 +34,23 @@
                         </span>
                     </div>
 
+					<?php
+                        if(form_error('father_dpi'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="father_dpi" class="col-sm-2 control-label">
+                            DPI Padre
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="father_dpi" name="father_dpi" value="<?=set_value('father_dpi')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('father_dpi'); ?>
+                        </span>
+                    </div>
+
                     <?php
                         if(form_error('father_name'))
                             echo "<div class='form-group has-error' >";

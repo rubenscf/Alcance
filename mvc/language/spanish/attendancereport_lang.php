@@ -2,7 +2,7 @@
 
 $lang['panel_title'] = "Asistencia Informe";
 $lang['attendancereport_section'] = "Sección";
-$lang['attendancereport_select_all_section'] = "All De La Sección";
+$lang['attendancereport_select_all_section'] = "Toda La Sección";
 $lang['attendancereport_present'] = "Presente";
 $lang['attendancereport_late_present_with_excuse'] = "A Finales De Presente Con Excusa";
 $lang['attendancereport_late_present'] = "A Finales De Presente";
@@ -11,7 +11,7 @@ $lang['attendancereport_report_for'] = "Informe De";
 $lang['attendancereport_attendance'] = "Asistencia";
 $lang['attendancereport_photo'] = "Foto";
 $lang['attendancereport_name'] = "Nombre";
-$lang['attendancereport_roll'] = "Rollo";
+$lang['attendancereport_roll'] = "Rol";
 $lang['attendancereport_phone'] = "Teléfono";
 $lang['attendancereport_registerNo'] = "Registro No";
 $lang['attendancereport_email'] = "Correo Electrónico";

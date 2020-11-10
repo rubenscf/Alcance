@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 |--------------------------------------------------------------------------
@@ -530,9 +530,9 @@ $config['proxy_ips'] = '';
 $config['product_name'] = 'school_4_6';
 
 $config['installDomain'] = [
-    'https://demo.inilabs.net/tracker',
-    'http://144.168.42.81/tracker',
-    'http://demo.dipokhalder.com/tracker',
+	'https://demo.inilabs.net/tracker',
+	'http://144.168.42.81/tracker',
+	'http://demo.dipokhalder.com/tracker',
 ];
 
 $config['demo']      = false;
