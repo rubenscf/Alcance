@@ -15,6 +15,23 @@
             <div class="col-sm-10">
                 <form class="form-horizontal" role="form" method="post" enctype="multipart/form-data">
 
+                <?php
+                        if(form_error('registerNO'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="registerNO" class="col-sm-2 control-label">
+                            <?=$this->lang->line("student_registerNO")?> <span class="text-red">*</span>
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="registerNO" name="registerNO" value="<?=set_value('registerNO')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('registerNO'); ?>
+                        </span>
+                    </div>
+
                     <?php
                         if(form_error('name'))
                             echo "<div class='form-group has-error' >";
@@ -143,22 +160,7 @@
                         </span>
                     </div>
 
-                    <?php
-                        if(form_error('email'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="email" class="col-sm-2 control-label">
-                            <?=$this->lang->line("student_email")?>
-                        </label>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="email" name="email" value="<?=set_value('email')?>" >
-                        </div>
-                        <span class="col-sm-4 control-label">
-                            <?php echo form_error('email'); ?>
-                        </span>
-                    </div>
+                 
 
                     <?php
                         if(form_error('phone'))
@@ -194,47 +196,7 @@
                         </span>
                     </div>
 
-                    <?php
-                        if(form_error('state'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="state" class="col-sm-2 control-label">
-                            <?=$this->lang->line("student_state")?>
-                        </label>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="state" name="state" value="<?=set_value('state')?>" >
-                        </div>
-                        <span class="col-sm-4 control-label">
-                            <?php echo form_error('state'); ?>
-                        </span>
-                    </div>
-
-                    <?php
-                        if(form_error('country'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="country" class="col-sm-2 control-label">
-                            <?=$this->lang->line("student_country")?>
-                        </label>
-                        <div class="col-sm-6">
-                            <?php
-                                $country['0'] = $this->lang->line('student_select_country');
-                                foreach ($allcountry as $allcountryKey => $allcountryit) {
-                                    $country[$allcountryKey] = $allcountryit;
-                                }
-                            ?>
-                            <?php
-                                echo form_dropdown("country", $country, set_value("country"), "id='country' class='form-control select2'");
-                            ?>
-                        </div>
-                        <span class="col-sm-4 control-label">
-                            <?php echo form_error('country'); ?>
-                        </span>
-                    </div>
+                    
 
                     <?php
                         if(form_error('classesID'))
@@ -335,39 +297,9 @@
                         </span>
                     </div>
 
-                    <?php
-                        if(form_error('registerNO'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="registerNO" class="col-sm-2 control-label">
-                            <?=$this->lang->line("student_registerNO")?> <span class="text-red">*</span>
-                        </label>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="registerNO" name="registerNO" value="<?=set_value('registerNO')?>" >
-                        </div>
-                        <span class="col-sm-4 control-label">
-                            <?php echo form_error('registerNO'); ?>
-                        </span>
-                    </div>
+                    
 
-                    <?php
-                        if(form_error('roll'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="roll" class="col-sm-2 control-label">
-                            <?=$this->lang->line("student_roll")?> <span class="text-red">*</span>
-                        </label>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="roll" name="roll" value="<?=set_value('roll')?>" >
-                        </div>
-                        <span class="col-sm-4 control-label">
-                            <?php echo form_error('roll'); ?>
-                        </span>
-                    </div>
+                   
 
                     <?php
                         if(form_error('photo'))
@@ -425,39 +357,7 @@
                         </span>
                     </div>
 
-                    <?php
-                        if(form_error('username'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="username" class="col-sm-2 control-label">
-                            <?=$this->lang->line("student_username")?> <span class="text-red">*</span>
-                        </label>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="username" name="username" value="<?=set_value('username')?>" >
-                        </div>
-                         <span class="col-sm-4 control-label">
-                            <?php echo form_error('username'); ?>
-                        </span>
-                    </div>
-
-                    <?php
-                        if(form_error('password'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="password" class="col-sm-2 control-label">
-                            <?=$this->lang->line("student_password")?> <span class="text-red">*</span>
-                        </label>
-                        <div class="col-sm-6">
-                            <input type="password" class="form-control" id="password" name="password" value="<?=set_value('password')?>" >
-                        </div>
-                         <span class="col-sm-4 control-label">
-                            <?php echo form_error('password'); ?>
-                        </span>
-                    </div>
+                 
 
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-8">

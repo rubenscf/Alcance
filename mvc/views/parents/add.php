@@ -25,12 +25,31 @@
                     ?>
                         <label for="name_id" class="col-sm-2 control-label">
                             <?=$this->lang->line("parents_guargian_name")?> <span class="text-red">*</span>
+                        
                         </label>
                         <div class="col-sm-6">
                             <input type="text" class="form-control" id="name_id" name="name" value="<?=set_value('name')?>" >
                         </div>
                         <span class="col-sm-4 control-label">
                             <?php echo form_error('name'); ?>
+                        </span>
+                    </div>
+
+                    <?php
+                        if(form_error('father_name'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="father_name" class="col-sm-2 control-label">
+                           
+                       Nombre del padre
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="father_name" name="father_name" value="<?=set_value('father_name')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('father_name'); ?>
                         </span>
                     </div>
 
@@ -51,39 +70,6 @@
                         </span>
                     </div>
 
-                    <?php
-                        if(form_error('father_name'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="father_name" class="col-sm-2 control-label">
-                            <?=$this->lang->line("parents_father_name")?>
-                        </label>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="father_name" name="father_name" value="<?=set_value('father_name')?>" >
-                        </div>
-                        <span class="col-sm-4 control-label">
-                            <?php echo form_error('father_name'); ?>
-                        </span>
-                    </div>
-
-                    <?php
-                        if(form_error('mother_dpi'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="mother_dpi" class="col-sm-2 control-label">
-                            DPI Madre
-                        </label>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="mother_dpi" name="mother_dpi" value="<?=set_value('mother_dpi')?>" >
-                        </div>
-                        <span class="col-sm-4 control-label">
-                            <?php echo form_error('mother_dpi'); ?>
-                        </span>
-                    </div>
 
                     <?php
                         if(form_error('father_bday'))
@@ -120,19 +106,70 @@
                     </div>
 
                     <?php
+                        if(form_error('father_profession'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="father_profession" class="col-sm-2 control-label">
+                        Profesión
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="father_profession" name="father_profession" value="<?=set_value('father_profession')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('father_profession'); ?>
+                        </span>
+                    </div>
+
+                    <?php
                         if(form_error('father_religion'))
                             echo "<div class='form-group has-error' >";
                         else
                             echo "<div class='form-group' >";
                     ?>
                         <label for="father_religion" class="col-sm-2 control-label">
-                        Escolaridad del padre
+                        Religión
                         </label>
                         <div class="col-sm-6">
                             <input type="text" class="form-control" id="father_religion" name="father_religion" value="<?=set_value('father_religion')?>" >
                         </div>
                         <span class="col-sm-4 control-label">
                             <?php echo form_error('father_religion'); ?>
+                        </span>
+                    </div>
+
+                    <?php
+                        if(form_error('mother_name'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="mother_name" class="col-sm-2 control-label">
+                        Nombre de la madre
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="mother_name" name="mother_name" value="<?=set_value('mother_name')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('mother_name'); ?>
+                        </span>
+                    </div>
+
+                    <?php
+                        if(form_error('mother_dpi'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="mother_dpi" class="col-sm-2 control-label">
+                            DPI Madre
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="mother_dpi" name="mother_dpi" value="<?=set_value('mother_dpi')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('mother_dpi'); ?>
                         </span>
                     </div>
 
@@ -171,6 +208,23 @@
                     </div>
 
                     <?php
+                        if(form_error('mother_profession'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="mother_profession" class="col-sm-2 control-label">
+                          Profesión
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="mother_profession" name="mother_profession" value="<?=set_value('mother_profession')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('mother_profession'); ?>
+                        </span>
+                    </div>
+
+                    <?php
                         if(form_error('mother_religion'))
                             echo "<div class='form-group has-error' >";
                         else
@@ -194,7 +248,7 @@
                             echo "<div class='form-group' >";
                     ?>
                         <label for="income" class="col-sm-2 control-label">
-                        Ingresos
+                        Ingresos Familiares
                         </label>
                         <div class="col-sm-6">
                             <input type="text" class="form-control" id="income" name="income" value="<?=set_value('income')?>" >
@@ -272,58 +326,8 @@
                         </span>
                     </div>
 
-                    <?php
-                        if(form_error('mother_name'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="mother_name" class="col-sm-2 control-label">
-                            <?=$this->lang->line("parents_mother_name")?>
-                        </label>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="mother_name" name="mother_name" value="<?=set_value('mother_name')?>" >
-                        </div>
-                        <span class="col-sm-4 control-label">
-                            <?php echo form_error('mother_name'); ?>
-                        </span>
-                    </div>
-
-                    <?php
-                        if(form_error('father_profession'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="father_profession" class="col-sm-2 control-label">
-                            <?=$this->lang->line("parents_father_profession")?>
-                        </label>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="father_profession" name="father_profession" value="<?=set_value('father_profession')?>" >
-                        </div>
-                        <span class="col-sm-4 control-label">
-                            <?php echo form_error('father_profession'); ?>
-                        </span>
-                    </div>
-
-                    <?php
-                        if(form_error('mother_profession'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="mother_profession" class="col-sm-2 control-label">
-                            <?=$this->lang->line("parents_mother_profession")?>
-                        </label>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="mother_profession" name="mother_profession" value="<?=set_value('mother_profession')?>" >
-                        </div>
-                        <span class="col-sm-4 control-label">
-                            <?php echo form_error('mother_profession'); ?>
-                        </span>
-                    </div>
-
-             
+                  
+           
 
                     <?php
                         if(form_error('email'))
@@ -408,39 +412,7 @@
                         </span>
                     </div>
 
-                    <?php
-                        if(form_error('username'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="username" class="col-sm-2 control-label">
-                            <?=$this->lang->line("parents_username")?> <span class="text-red">*</span>
-                        </label>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="username" name="username" value="<?=set_value('username')?>" >
-                        </div>
-                         <span class="col-sm-4 control-label">
-                            <?php echo form_error('username'); ?>
-                        </span>
-                    </div>
-
-                    <?php
-                        if(form_error('password'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="password" class="col-sm-2 control-label">
-                            <?=$this->lang->line("parents_password")?> <span class="text-red">*</span>
-                        </label>
-                        <div class="col-sm-6">
-                            <input type="password" class="form-control" id="password" name="password" value="<?=set_value('password')?>" >
-                        </div>
-                         <span class="col-sm-4 control-label">
-                            <?php echo form_error('password'); ?>
-                        </span>
-                    </div>
+                  
 
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-8">

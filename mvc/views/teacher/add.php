@@ -34,6 +34,24 @@
                     </div>
 
                     <?php
+                        if(form_error('email'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="email" class="col-sm-2 control-label">
+                            <?=$this->lang->line("email")?> <span class="text-red">*</span>
+                       Jornada
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="email" name="email" value="<?=set_value('journal')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('email'); ?>
+                        </span>
+                    </div>
+
+                    <?php
                         if(form_error('journal'))
                             echo "<div class='form-group has-error' >";
                         else
@@ -105,41 +123,7 @@
                         </span>
                     </div>
 
-                    <?php
-                        if(form_error('school_level'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="school_level" class="col-sm-2 control-label">
-                            <?=$this->lang->line("school_level")?>
-                       Escolaridad
-                        </label>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="school_level" name="school_level" value="<?=set_value('school_level')?>" >
-                        </div>
-                        <span class="col-sm-4 control-label">
-                            <?php echo form_error('school_level'); ?>
-                        </span>
-                    </div>
-
-                    <?php
-                        if(form_error('email'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="email" class="col-sm-2 control-label">
-                            <?=$this->lang->line("teacher_email")?> <span class="text-red">*</span>
-                        </label>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="email" name="email" value="<?=set_value('email')?>" >
-                        </div>
-                        <span class="col-sm-4 control-label">
-                            <?php echo form_error('email'); ?>
-                        </span>
-                    </div>
-
+                   
                     <?php
                         if(form_error('phone'))
                             echo "<div class='form-group has-error' >";
@@ -241,7 +225,64 @@
                         </span>
                     </div>
 
-    
+                    <?php
+                        if(form_error('email'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="email" class="col-sm-2 control-label">
+                            <?=$this->lang->line("teacher_email")?> <span class="text-red">*</span>
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="email" name="email" value="<?=set_value('email')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('email'); ?>
+                        </span>
+                    </div>
+					
+					
+	  <?php
+                        if(form_error('username'))
+                            echo "<div class='form-group has-error' style='display: none;' >";
+                        else
+                            echo "<div class='form-group' style='display: none;'>";
+
+                        
+                    ?>
+                        <label for="username" class="col-sm-2 control-label">
+                            <?=$this->lang->line("parents_username")?> <span class="text-red">*</span>
+                      Ingrese Usuario
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="hidden" class="form-control" id="username" name="username" value="<?php print_r('usuario'.time()); ?>" >
+                        </div>
+                         <span class="col-sm-4 control-label">
+                            <?php echo form_error('username'); ?>
+                        </span>
+                    </div>
+
+                    <?php 
+                        if(form_error('password'))
+                            echo "<div class='form-group has-error' style='display: none;' >";
+                        else
+                            echo "<div class='form-group' style='display: none;' >";
+
+                        
+                    ?>
+                        <label for="password" class="col-sm-2 control-label">
+                            <?=$this->lang->line("parents_password")?> <span class="text-red">*</span>
+                            Ingrese su contraseña
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="hidden" class="form-control" id="password" name="password" value="<?php print_r('1234567890'); ?>" >
+                        </div>
+                         <span class="col-sm-4 control-label">
+                            <?php echo form_error('password'); ?>
+                        </span>
+                    </div>
+					
 
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-8">
