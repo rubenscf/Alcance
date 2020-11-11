@@ -34,21 +34,41 @@
                     </div>
 
                     <?php
-                        if(form_error('designation'))
+                        if(form_error('email'))
                             echo "<div class='form-group has-error' >";
                         else
                             echo "<div class='form-group' >";
                     ?>
-                        <label for="designation" class="col-sm-2 control-label">
-                            <?=$this->lang->line("teacher_designation")?> <span class="text-red">*</span>
+                        <label for="email" class="col-sm-2 control-label">
+                            <?=$this->lang->line("email")?> <span class="text-red">*</span>
+                       Jornada
                         </label>
                         <div class="col-sm-6">
-                            <input type="text" class="form-control" id="designation" name="designation" value="<?=set_value('designation')?>" >
+                            <input type="text" class="form-control" id="email" name="email" value="<?=set_value('journal')?>" >
                         </div>
                         <span class="col-sm-4 control-label">
-                            <?php echo form_error('designation'); ?>
+                            <?php echo form_error('email'); ?>
                         </span>
                     </div>
+
+                    <?php
+                        if(form_error('journal'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="journal" class="col-sm-2 control-label">
+                            <?=$this->lang->line("journal")?> <span class="text-red">*</span>
+                       Jornada
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="journal" name="journal" value="<?=set_value('journal')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('journal'); ?>
+                        </span>
+                    </div>
+                    
 
                     <?php
                         if(form_error('dob'))
@@ -103,23 +123,7 @@
                         </span>
                     </div>
 
-                    <?php
-                        if(form_error('email'))
-                            echo "<div class='form-group has-error' >";
-                        else
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="email" class="col-sm-2 control-label">
-                            <?=$this->lang->line("teacher_email")?> <span class="text-red">*</span>
-                        </label>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="email" name="email" value="<?=set_value('email')?>" >
-                        </div>
-                        <span class="col-sm-4 control-label">
-                            <?php echo form_error('email'); ?>
-                        </span>
-                    </div>
-
+                   
                     <?php
                         if(form_error('phone'))
                             echo "<div class='form-group has-error' >";
@@ -172,6 +176,24 @@
                     </div>
 
                     <?php
+                        if(form_error('studentgroupID'))
+                            echo "<div class='form-group has-error' >";
+                        else
+                            echo "<div class='form-group' >";
+                    ?>
+                        <label for="studentgroupID" class="col-sm-2 control-label">
+                            <?=$this->lang->line("studentgroupID")?>
+                       Escolaridad
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="studentgroupID" name="studentgroupID" value="<?=set_value('studentgroupID')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('studentgroupID'); ?>
+                        </span>
+                    </div>
+
+                    <?php
                         if(form_error('photo'))
                             echo "<div class='form-group has-error' >";
                         else
@@ -204,38 +226,63 @@
                     </div>
 
                     <?php
-                        if(form_error('username'))
+                        if(form_error('email'))
                             echo "<div class='form-group has-error' >";
                         else
                             echo "<div class='form-group' >";
                     ?>
-                        <label for="username" class="col-sm-2 control-label">
-                            <?=$this->lang->line("teacher_username")?> <span class="text-red">*</span>
+                        <label for="email" class="col-sm-2 control-label">
+                            <?=$this->lang->line("teacher_email")?> <span class="text-red">*</span>
                         </label>
                         <div class="col-sm-6">
-                            <input type="text" class="form-control" id="username" name="username" value="<?=set_value('username')?>" >
+                            <input type="text" class="form-control" id="email" name="email" value="<?=set_value('email')?>" >
+                        </div>
+                        <span class="col-sm-4 control-label">
+                            <?php echo form_error('email'); ?>
+                        </span>
+                    </div>
+					
+					
+	  <?php
+                        if(form_error('username'))
+                            echo "<div class='form-group has-error' style='display: none;' >";
+                        else
+                            echo "<div class='form-group' style='display: none;'>";
+
+                        
+                    ?>
+                        <label for="username" class="col-sm-2 control-label">
+                            <?=$this->lang->line("parents_username")?> <span class="text-red">*</span>
+                      Ingrese Usuario
+                        </label>
+                        <div class="col-sm-6">
+                            <input type="hidden" class="form-control" id="username" name="username" value="<?php print_r('usuario'.time()); ?>" >
                         </div>
                          <span class="col-sm-4 control-label">
                             <?php echo form_error('username'); ?>
                         </span>
                     </div>
 
-                    <?php
+                    <?php 
                         if(form_error('password'))
-                            echo "<div class='form-group has-error' >";
+                            echo "<div class='form-group has-error' style='display: none;' >";
                         else
-                            echo "<div class='form-group' >";
+                            echo "<div class='form-group' style='display: none;' >";
+
+                        
                     ?>
                         <label for="password" class="col-sm-2 control-label">
-                            <?=$this->lang->line("teacher_password")?> <span class="text-red">*</span>
+                            <?=$this->lang->line("parents_password")?> <span class="text-red">*</span>
+                            Ingrese su contraseña
                         </label>
                         <div class="col-sm-6">
-                            <input type="password" class="form-control" id="password" name="password" value="<?=set_value('password')?>" >
+                            <input type="hidden" class="form-control" id="password" name="password" value="<?php print_r('1234567890'); ?>" >
                         </div>
                          <span class="col-sm-4 control-label">
                             <?php echo form_error('password'); ?>
                         </span>
                     </div>
+					
 
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-8">

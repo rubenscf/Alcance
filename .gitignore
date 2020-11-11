@@ -18,3 +18,4 @@ application/logs/*
 /vendor/
 mvc/cache/**
 mvc/cache/*
+mvc/cache
