@@ -204,22 +204,7 @@
                         </span>
                     </div>
 
-                    <?php 
-                        if(form_error('username')) 
-                            echo "<div class='form-group has-error' >";
-                        else     
-                            echo "<div class='form-group' >";
-                    ?>
-                        <label for="username" class="col-sm-2 control-label">
-                            <?=$this->lang->line("teacher_username")?> <span class="text-red">*</span>
-                        </label>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="username" name="username" value="<?=set_value('username', $teacher->username)?>" >
-                        </div>
-                         <span class="col-sm-4 control-label">
-                            <?php echo form_error('username'); ?>
-                        </span>
-                    </div>
+                   
 
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-8">

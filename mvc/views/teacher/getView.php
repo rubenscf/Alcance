@@ -78,7 +78,7 @@
                                         <p><span><?=$this->lang->line("teacher_address")?> </span>: <?=$profile->address?></p>
                                     </div>
                                     <div class="profile-view-tab">
-                                        <p><span><?=$this->lang->line("teacher_username")?> </span>: <?=$profile->username?></p>
+                                      
                                     </div>
                                 </div>
                             </div>
